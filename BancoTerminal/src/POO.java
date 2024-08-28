@@ -1,10 +1,6 @@
 public class POO {
-    
-    public static void main(String[] args) throws Exception {
-
-        ReprodutorMusical reprodutorMusical = new ReprodutorMusical();
-        reprodutorMusical.ligar("100");
-        reprodutorMusical.selecionarMusica("Patience");
-        reprodutorMusical.tocar();
+    public static void main(String[] args) {
+        String[] nomes = {"Camila", "Venilton", "Leonardo", "Renan", "Rafael"}; 
+		System.out.print(nomes.length);
     }
 }
