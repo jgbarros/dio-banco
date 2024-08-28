@@ -9,21 +9,25 @@ classDiagram
         +tocar()
         +pausar()
         +selecionarMusica(String musica)
+		+iniciarAplicativo()
     }
 
     class AparelhoTelefonico {
         +ligar(String numero)
         +atender()
         +iniciarCorreioVoz()
+		+iniciarAplicativo()
     }
 
     class NavegadorInternet {
         +exibirPagina(String url)
         +adicionarNovaAba()
         +atualizarPagina()
+		+iniciarAplicativo()
     }
 
     class iPhone {
+		+iniciarAplicativo()
     }
 
     iPhone --> ReprodutorMusical
